@@ -25,12 +25,14 @@
   "peerDependencies": {
     "eslint": "^6.0.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3"
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsdoc": "^8.4.5"
   },
   "devDependencies": {
     "eslint": "^6.0.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3"
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsdoc": "^8.4.5"
   },
   "publishConfig": {
     "access": "public"

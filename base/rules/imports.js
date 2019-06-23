@@ -30,16 +30,5 @@ module.exports = {
     // importing for side effects is perfectly acceptable, if you need side effects.
     // airbnb: off
     'import/no-unassigned-import': 'warn',
-
-    // Reports modules without any exports, or with unused exports
-    // TODO: review on airbnb-base next major
-    'import/no-unused-modules': [
-      'error',
-      {
-        ignoreExports: [],
-        missingExports: true,
-        unusedExports: true,
-      },
-    ],
   },
 };
