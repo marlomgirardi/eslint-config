@@ -116,5 +116,17 @@ module.exports = {
     // Enforce a maximum depth that callbacks can be nested
     // airbnb: off
     'max-nested-callbacks': ['error', 3],
+
+    // Disallow dangling underscores in identifiers
+    // airbnb: never
+    'no-underscore-dangle': [
+      'error',
+      {
+        allow: [],
+        allowAfterThis: false,
+        allowAfterSuper: false,
+        enforceInMethodNames: false,
+      },
+    ],
   },
 };
