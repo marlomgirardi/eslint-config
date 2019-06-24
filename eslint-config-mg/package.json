@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-mg",
+  "version": "1.0.0",
+  "description": "Marlom's ESLint config based on Airbnb styleguide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives -c index.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlomgirardi/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript"
+  ],
+  "author": "Marlom Girardi (https://twitter.com/MarlomGirardi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marlomgirardi/eslint-config#/issues"
+  },
+  "homepage": "https://github.com/marlomgirardi/eslint-config",
+  "peerDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-mg-base": "^1.0.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsdoc": "^8.4.5",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-mg-base": "^1.0.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsdoc": "^8.4.5",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.14.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
