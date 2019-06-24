@@ -25,10 +25,5 @@ module.exports = {
 
     // Forbid Webpack loader syntax in imports
     'import/no-webpack-loader-syntax': 'error',
-
-    // Prevent unassigned imports
-    // importing for side effects is perfectly acceptable, if you need side effects.
-    // airbnb: off
-    'import/no-unassigned-import': 'warn',
   },
 };

@@ -35,17 +35,6 @@ module.exports = {
     // airbnb: off
     'func-style': ['warn', 'declaration', { allowArrowFunctions: true }],
 
-    // Enforce position of line comments
-    // airbnb: off
-    'line-comment-position': [
-      'error',
-      {
-        position: 'above',
-        ignorePattern: '',
-        applyDefaultIgnorePatterns: true,
-      },
-    ],
-
     // Enforce empty lines around comments
     // airbnb: off
     'lines-around-comment': [
