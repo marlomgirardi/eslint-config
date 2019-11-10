@@ -16,5 +16,11 @@ module.exports = {
     // Reports use of a deprecated name, as indicated by a @deprecated
     // airbnb: off
     'import/no-deprecated': 'warn',
+
+    // Enforce a convention in the order of require() / import statements
+    // airbnb: { groups: [['builtin', 'external', 'internal']] }
+    'import/order': ['error', {
+      groups: ['builtin', 'external', 'internal', 'unknown', 'parent', 'sibling', 'index']
+    }],
   },
 };
