@@ -20,7 +20,7 @@ module.exports = {
     // Enforce a convention in the order of require() / import statements
     // airbnb: { groups: [['builtin', 'external', 'internal']] }
     'import/order': ['error', {
-      groups: ['builtin', 'external', 'internal', 'unknown', 'parent', 'sibling', 'index']
+      groups: ['builtin', 'external', 'internal', 'unknown', 'parent', 'sibling', 'index'],
     }],
   },
 };
