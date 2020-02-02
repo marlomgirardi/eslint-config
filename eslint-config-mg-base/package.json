@@ -24,14 +24,14 @@
   "homepage": "https://github.com/marlomgirardi/eslint-config",
   "dependencies": {
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsdoc": "^18.4.3"
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsdoc": "^21.0.0"
   },
   "peerDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^6.8.0"
   },
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^6.8.0"
   },
   "publishConfig": {
     "access": "public"
