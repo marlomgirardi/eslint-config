@@ -3,6 +3,8 @@ const baseStyleRules = require('@i9ws/eslint-config-i9ws-base/rules/style').rule
 const dangleRules = baseStyleRules['no-underscore-dangle'];
 
 module.exports = {
+  plugins: ['react'],
+
   extends: 'plugin:react/recommended',
 
   rules: {
@@ -34,7 +36,7 @@ module.exports = {
           'rendering',
         ],
         groups: {
-          'event-handlers': ['/^_?(on|handle).+$/'],
+          'event-handlers': ['/^_?on.+$/'],
           rendering: ['/^_?render.+$/', 'render'],
         },
       },

@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-mg-react",
   "version": "1.0.0",
-  "description": "Marlom's ESLint config based on Airbnb styleguide",
+  "description": "Marlom's default react.js eslint config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --report-unused-disable-directives -c index.js ."
@@ -13,8 +13,9 @@
   "keywords": [
     "eslint",
     "eslintconfig",
-    "config",
-    "javascript"
+    "javascript",
+    "react",
+    "es2020"
   ],
   "author": "Marlom Girardi (https://twitter.com/MarlomGirardi)",
   "license": "MIT",
@@ -23,16 +24,16 @@
   },
   "homepage": "https://github.com/marlomgirardi/eslint-config",
   "peerDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^6.8.0"
   },
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^6.8.0"
   },
   "dependencies": {
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-config-mg-base": "^1.0.1",
-    "eslint-plugin-react": "^7.17.0"
+    "eslint-plugin-react": "^7.18.3"
   },
   "publishConfig": {
     "access": "public"

@@ -1,6 +1,6 @@
 # eslint-config-mg-react
 
-This package have every common rules that we use.
+This package have every React based ruoes
 
 ## Usage
 
