@@ -32,7 +32,8 @@ module.exports = {
     'func-names': ['warn', 'as-needed'],
 
     // Enforces use of function declarations or expressions
-    // airbnb: off
+    // TODO: review on airbnb-base next major
+    // airbnb: ['off', 'expression']
     'func-style': ['warn', 'declaration', { allowArrowFunctions: true }],
 
     // Enforce empty lines around comments

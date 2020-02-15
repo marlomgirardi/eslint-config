@@ -23,17 +23,18 @@
   },
   "homepage": "https://github.com/marlomgirardi/eslint-config",
   "peerDependencies": {
-    "eslint": "^6.0.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jsdoc": "^8.4.5"
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsdoc": "^15.12.1"
   },
   "devDependencies": {
-    "eslint": "^6.0.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jsdoc": "^8.4.5"
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsdoc": "^15.12.1"
   },
+  "dependencies": {},
   "publishConfig": {
     "access": "public"
   }

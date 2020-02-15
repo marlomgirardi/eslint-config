@@ -11,12 +11,16 @@ module.exports = {
     // Must match with the exact signature
     'jsdoc/check-param-names': 'error',
 
+    // Reports against Google Closure Compiler syntax
+    'jsdoc/check-syntax': 'error',
+
     // Prevent invalid tag name like `@paramm`
     'jsdoc/check-tag-names': 'error',
 
     // Prefer native types over objects
     'jsdoc/check-types': 'error',
 
+    // Reports an issue with any non-constructor function using @implements
     'jsdoc/implements-on-classes': 'error',
 
     // Enforces a consistent padding of the block description
@@ -29,10 +33,14 @@ module.exports = {
     'jsdoc/require-description-complete-sentence': 'warn',
 
     // Requires that all functions have a description
-    'jsdoc/require-description': 'error',
+    'jsdoc/require-description': ['error', {
+      contexts: ['ClassDeclaration', 'ClassExpression'],
+      exemptedBy: ['type'],
+      descriptionStyle: 'body',
+    }],
 
     // Requires a hyphen before the @param description
-    'jsdoc/require-hyphen-before-param-description': ['error', 'always'],
+    'jsdoc/require-hyphen-before-param-description': ['error', 'never'],
 
     // Requires that all function parameters are documented
     'jsdoc/require-param': 'error',
