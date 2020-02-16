@@ -10,9 +10,7 @@ module.exports = {
     complexity: ['warn', 10],
 
     // Enforce that class methods use "this"
-    'class-methods-use-this': ['error', {
-      exceptMethods: [],
-    }],
+    'class-methods-use-this': 'error',
 
     // Require return statements to either always or never specify values
     'consistent-return': 'warn',
@@ -169,40 +167,40 @@ module.exports = {
       property: 'callee',
       message: 'arguments.callee is deprecated',
     }, {
-      object: 'global',
-      property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
-    }, {
-      object: 'self',
-      property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
-    }, {
-      object: 'window',
-      property: 'isFinite',
-      message: 'Please use Number.isFinite instead',
-    }, {
-      object: 'global',
-      property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
-    }, {
-      object: 'self',
-      property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
-    }, {
-      object: 'window',
-      property: 'isNaN',
-      message: 'Please use Number.isNaN instead',
-    }, {
-      property: '__defineGetter__',
-      message: 'Please use Object.defineProperty instead.',
-    }, {
-      property: '__defineSetter__',
-      message: 'Please use Object.defineProperty instead.',
-    }, {
-      object: 'Math',
-      property: 'pow',
-      message: 'Use the exponentiation operator (**) instead.',
-    }],
+        object: 'global',
+        property: 'isFinite',
+        message: 'Please use Number.isFinite instead',
+      }, {
+        object: 'self',
+        property: 'isFinite',
+        message: 'Please use Number.isFinite instead',
+      }, {
+        object: 'window',
+        property: 'isFinite',
+        message: 'Please use Number.isFinite instead',
+      }, {
+        object: 'global',
+        property: 'isNaN',
+        message: 'Please use Number.isNaN instead',
+      }, {
+        object: 'self',
+        property: 'isNaN',
+        message: 'Please use Number.isNaN instead',
+      }, {
+        object: 'window',
+        property: 'isNaN',
+        message: 'Please use Number.isNaN instead',
+      }, {
+        property: '__defineGetter__',
+        message: 'Please use Object.defineProperty instead.',
+      }, {
+        property: '__defineSetter__',
+        message: 'Please use Object.defineProperty instead.',
+      }, {
+        object: 'Math',
+        property: 'pow',
+        message: 'Use the exponentiation operator (**) instead.',
+      }],
 
     // Disallow use of assignment in return statement
     'no-return-assign': ['error', 'always'],

@@ -22,17 +22,17 @@
   "bugs": {
     "url": "https://github.com/marlomgirardi/eslint-config#/issues"
   },
-  "homepage": "https://github.com/marlomgirardi/eslint-config",
+  "homepage": "https://github.com/marlomgirardi/eslint-config/tree/master/eslint-config-mg-react",
   "peerDependencies": {
     "eslint": "^6.8.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-config-mg-base": "^1.0.1",
+    "eslint-config-mg-base": "^1.0.2",
     "eslint-plugin-react": "^7.18.3"
   },
   "publishConfig": {
