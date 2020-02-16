@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-mg-base",
   "version": "1.0.1",
-  "description": "Marlom's base ESLint config based on Airbnb styleguide",
+  "description": "Marlom's base ESLint",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --report-unused-disable-directives -c index.js ."
@@ -21,9 +21,9 @@
   "bugs": {
     "url": "https://github.com/marlomgirardi/eslint-config#/issues"
   },
-  "homepage": "https://github.com/marlomgirardi/eslint-config",
+  "homepage": "https://github.com/marlomgirardi/eslint-config/tree/master/eslint-config-mg-base",
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.0.0",
+    "confusing-browser-globals": "^1.0.9",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsdoc": "^21.0.0"
   },
