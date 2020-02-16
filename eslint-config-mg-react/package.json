@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mg-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Marlom's default react.js eslint config",
   "main": "index.js",
   "scripts": {
