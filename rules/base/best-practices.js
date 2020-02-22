@@ -113,7 +113,7 @@ module.exports = {
 
     // Disallow magic numbers
     'no-magic-numbers': ['error', {
-      ignore: [],
+      ignore: [1], // For cases like `arr.length - 1 === index`
       ignoreArrayIndexes: true,
       enforceConst: true,
       detectObjects: false,

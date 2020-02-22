@@ -202,9 +202,6 @@ module.exports = {
     // Disallow use of the Object constructor
     'no-new-object': 'error',
 
-    // Disallow use of unary operators, ++ and --
-    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
-
     // Disallow certain syntax forms
     'no-restricted-syntax': ['error', {
       selector: 'ForInStatement',

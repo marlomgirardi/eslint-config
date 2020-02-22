@@ -48,21 +48,9 @@ module.exports = {
       message: 'Boolean property must use `is` or `has` as prefix.',
     }],
 
-    // Prevent usage of button elements without an explicit type attribute
-    // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/button-has-type.md
-    'react/button-has-type': ['error', {
-      button: true,
-      submit: true,
-      reset: false,
-    }],
-
     // Enforce all defaultProps have a corresponding non-required PropType
     // https://github.com/yannickcr/eslint-plugin-react/blob/9e13ae2c51e44872b45cc15bf1ac3a72105bdd0e/docs/rules/default-props-match-prop-types.md
     'react/default-props-match-prop-types': ['error', { allowRequiredDefaults: false }],
-
-    // Enforce consistent usage of destructuring assignment of props, state, and context
-    // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/destructuring-assignment.md
-    'react/destructuring-assignment': ['error', 'always'],
 
     // Forbids using non-exported propTypes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-foreign-prop-types.md
@@ -164,7 +152,7 @@ module.exports = {
         'rendering',
       ],
       groups: {
-        'event-handlers': ['/^_?on.+$/'],
+        'event-handlers': ['/^_?handle.+$/'],
         rendering: ['/^_?render.+$/', 'render'],
       },
     }],
