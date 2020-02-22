@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mg",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Marlom's ESLint configuration",
   "main": "index.js",
   "scripts": {
