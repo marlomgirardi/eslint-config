@@ -1,9 +1,8 @@
 module.exports = {
   extends: [
-    'eslint-config-mg-base',
-    './rules/react',
-    './rules/react-hooks',
-    './rules/react-a11y',
+    './rules/react/react',
+    './rules/react/react-hooks',
+    './rules/react/react-a11y',
   ].map(require.resolve),
 
   parserOptions: {

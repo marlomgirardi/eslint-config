@@ -1,6 +1,4 @@
-const baseStyleRules = require('eslint-config-mg-base/rules/style').rules;
-
-const dangleRules = baseStyleRules['no-underscore-dangle'];
+const dangleRules = require('../base/style').rules['no-underscore-dangle'];
 
 module.exports = {
   plugins: ['react'],
