@@ -60,8 +60,7 @@ module.exports = {
         '**/jest.config.js', // Jest config
         '**/jest.setup.js', // Jest setup
         '**/vue.config.js', // Vue-cli config
-        '**/webpack.config.js', // Webpack config
-        '**/webpack.config.*.js', // Webpack config
+        '**/webpack.*.js', // Webpack config
         '**/rollup.config.js', // Rollup config
         '**/rollup.config.*.js', // Rollup config
         '**/gulpfile.js', // Gulp config

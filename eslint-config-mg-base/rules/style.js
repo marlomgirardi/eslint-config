@@ -210,15 +210,15 @@ module.exports = {
       selector: 'ForInStatement',
       message: 'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
     }, {
-        selector: 'ForOfStatement',
-        message: 'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
-      }, {
-        selector: 'LabeledStatement',
-        message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
-      }, {
-        selector: 'WithStatement',
-        message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
-      }],
+      selector: 'ForOfStatement',
+      message: 'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
+    }, {
+      selector: 'LabeledStatement',
+      message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+    }, {
+      selector: 'WithStatement',
+      message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+    }],
 
     // Disallow tab characters entirely
     'no-tabs': 'error',
@@ -274,8 +274,8 @@ module.exports = {
       classes: 'never',
       switches: 'never',
     }, {
-        allowSingleLineBlocks: true,
-      }],
+      allowSingleLineBlocks: true,
+    }],
 
     // Disallow the use of Math.pow in favor of the ** operator
     'prefer-exponentiation-operator': 'error',
