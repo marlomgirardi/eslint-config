@@ -1,9 +1,9 @@
 module.exports = {
-  extends: ['./base'].map(require.resolve),
+  extends: ["./base"].map(require.resolve),
 
   parserOptions: {
     ecmaVersion: 2020,
-    sourceType: 'module',
+    sourceType: "module",
   },
 
   rules: {},
